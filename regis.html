@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    
+    <title>Registrarse</title>
+</head>
+<body>
+    <a href="#" class="logotipo">
+        <div class="texto-animado" id="logo">Arquitectura Cliente-Servidor</div>
+
+    </a> 
+    <div class="flex-center">
+        <div id="fondo" class="flex-center"> 
+            
+        </div>
+
+    </div> 
+    <div class="contenedor">
+        
+        <header>
+             
+            <div class="container__menu">
+
+                <div class="menu">
+                    <input type="checkbox" id="check__menu">
+                    <label for="check__menu" id="label__check">
+                        <i class="fas fa-bars icon__menu"></i>
+                    </label>
+                    <nav>
+                        <ul>
+                            <li><a href="Proyecto1.html" id="selected"></a></li>
+                            <li><a href="#">Nosotros</a>
+                                <ul>
+                                    <li><a href="#">Contacto</a></li>
+                                    <li><a href="regis.html">Regístrate</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="#">Informe</a>
+                                <ul>
+                                    <li><a href="Bibliografia.html">Bibliografía</a></li>
+                                   
+                                    
+                                </ul>
+                            
+                            
+                            
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+    
+            </div>
+        </header>
+
+
+
+
+
+    
+    
+        <section class="form-register">
+            <h4>Formulario Registro</h4>
+            <input class="datos" type="text" name="nombres" id="name" placeholder="Ingrese su Nombre">
+            <input class="datos" type="text" name="apellidos" id="apell" placeholder="Ingrese su Apellido">
+            <input class="datos" type="email" name="correo" id="cor" placeholder="Ingrese su Correo">
+            <input class="datos" type="password" name="pass" id="pass" placeholder="Ingrese su Contraseña">
+            <input class="datos" type="text" name="celu" id="celu" placeholder="Ingrese el Número de teléfono">
+            <input class="datos" type="date" name="fech" id="fech" placeholder="seleccione">
+            <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p><br><br>
+            <input class="datos" type="checkbox">
+            <input class="botons" type="submit" value="Registrar" onclick="registrar()">
+            <p><a href="#">¿Ya tengo Cuenta?</a></p>
+          </section>
+    </div>
+    
+    <script src="JS/instrucciones.js"></script>  
+</body>
+</html>
